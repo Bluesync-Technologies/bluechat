@@ -118,6 +118,7 @@ function Main:CreateNewChatProperty(Type, Id, Rank, Tag, TagColor, BubbleTextCol
 					return
 				end
 			end
+			return BubbleProperties
 		end
 
 	end
@@ -178,6 +179,7 @@ function Main:CreateNewBubbleChatProperty(Type, Id, Rank, BubbleTextColor, Bubbl
 					return
 				end
 			end
+			return BubbleProperties
 		end
 
 	end
